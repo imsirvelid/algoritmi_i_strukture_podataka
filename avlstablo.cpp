@@ -487,7 +487,7 @@ BinStabloMapa<TipKljuc, TipVrijednost> &BinStabloMapa<TipKljuc, TipVrijednost>::
 }
 
 int main(){
-    /*std::cout<<"******Poredjenje BinStabloMape i AVLStabloMape******"<<std::endl;
+    std::cout<<"******Poredjenje BinStabloMape i AVLStabloMape******"<<std::endl;
     BinStabloMapa<int, int> bsm;
     clock_t v1 = clock();
     for (int i = 0; i < 90000; i++){
@@ -511,7 +511,7 @@ int main(){
     v1 = clock();
     avl[1000000000] = 2289;
     v2 = clock();
-    std::cout<<"Dodavanje novog elementa u AVLStabloMapa: "<<(double) (v2 - v1) / (CLOCKS_PER_SEC / 1000)<<std::endl;*/
+    std::cout<<"Dodavanje novog elementa u AVLStabloMapa: "<<(double) (v2 - v1) / (CLOCKS_PER_SEC / 1000)<<std::endl;
 	return 0;
 }
 
